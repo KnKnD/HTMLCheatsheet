@@ -1,0 +1,84 @@
+table,
+th,
+td {
+    word-break: break-all;
+}
+
+table {
+       border-collapse: collapse;
+       font-size: 0.9em;
+       width: 750px;
+       text-align: justify;
+       min-width: 500px;
+       border-radius: 5px 5px 0 0;
+       overflow: hidden;
+       box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+       font-family: monospace;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+  input {
+    
+    display:flex;
+    align-items: center;
+}
+
+  .green, .green-checkbox {
+    color: #00a19b;
+    accent-color: #00a19b;
+}
+  .red, .red-checkbox {
+    color: #ea4335;
+    accent-color: #ea4335;
+}
+
+
+  td {
+    padding: 1px 10px;
+}
+
+  thead {
+    background-color: #434343;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+}
+
+thead tr th{
+    padding: 0 10px;
+}
+
+  .middle {
+    text-align: center;
+}
+
+.Section-heading {
+    text-align: center;
+}
+
+tbody tr:hover {
+    background-color:cornsilk;
+}
+
+.width {
+   width: 120px;
+}
+  
+
+a {
+    color: black;
+    text-decoration:underline;
+}
+
+a:visited {
+    color: #00a19b;
+}
+
+section {
+    width: 750px;
+    min-width: 500px;
+    border-bottom: 1px solid #ddd;
+}
